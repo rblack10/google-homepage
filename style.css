@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: #000000;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+header {
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.top-nav-left {
+    flex: 1;
+    padding-left: 15px;
+
+}
+
+.top-nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px
+}
+
+.top-nav-left a,
+.top-nav-right a,
+.top-nav-right i,
+.footer-left a,
+.footer-right a { 
+    text-decoration: none;
+    padding-left: 15px;
+    opacity: .75;
+    color: #737373;
+}
+
+.top-nav-right i {
+    padding-left: 15px;
+    padding-right: 30px;
+
+}
+
+.profile {
+    width: 35px;
+    height: 35px;
+    background-color: #C2185B;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+    font-size: 15px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-top: 140px;
+
+}
+
+
+.input-icons {
+    width: 585px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+.icon {
+
+    padding: 18px 16px 16px 18px;
+    color: #9AA0A6;
+    position: absolute;
+
+
+
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px 15px 15px 50px;
+    text-align: left;
+    border-radius: 25px;
+    border: 1px solid #DFE1E5;
+    font-size: 16px;
+
+
+}
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-button button {
+    background: #f3f3f3;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 11px;
+    color: #85888B;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    height: 40px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    border-top: .5px solid #e4e4e4; 
+    
+
+}
+.footer-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+.footer-right {
+    align-items: center;
+    display: flex;
+    margin: 0 30px;
+    
+}
+
+.footer-left a,
+.footer-right a {
+    padding: 10px;
+    color: #5F6368;
+}
